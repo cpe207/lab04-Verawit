@@ -1,16 +1,18 @@
 //วีรวิชญ์ ยิ่งศิริธัญรัฐ 660612157
 function typeChecker(a, b) {
-  var typeA = typeof (a);
-  var typeB = typeof (b);
-  if (typeA !== typeB) {
-      return "NOT MATCHED";
-  }
-  else if (typeA && typeB === 'string') {
-      return "I LOVE YOU";
-  }
-  else (typeA && typeB === 'number'){
-      return a + b;
-  }
+    var typeA = typeof (a);
+    var typeB = typeof (b);
+    if (typeA !== typeB) {
+        return "NOT MATCHED";
+    }
+    else if (typeA && typeB === 'string') {
+        return "I LOVE YOU";
+    }
+    else
+        (typeA && typeB === 'number');
+    {
+        return a + b;
+    }
 }
 //Test cases
 var a1 = "Jack";
